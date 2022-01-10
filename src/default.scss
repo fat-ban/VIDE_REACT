@@ -1,13 +1,9 @@
-*{
+/*{
     padding:0;
     margin: 0;
     box-sizing: border-box;
-}
-*::after, ::before {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
+}*/
+
 
 html {
     font-size: 10px;
@@ -19,6 +15,22 @@ body {
     padding: 0;
     margin: 0;
 }
+
+html,
+body,
+#root,
+.App,
+.fullHeight{
+height: 100%;
+
+}
+
+*::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
@@ -38,10 +50,11 @@ a, a:hover {
 }
 
 .main {
-  width: 100%;
-  height: calc(100% - 6.5rem);
+ width: 80%;
+height: calc(100% - 6.5rem);
   max-width: 1450px;
-  padding: 0 10px;
+  padding: 0 135px;
   margin: 0 auto;
+  
 
 }
