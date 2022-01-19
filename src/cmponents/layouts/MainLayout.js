@@ -4,10 +4,10 @@ import Header from '../Header'
 
 
 const MainLayout=(props)=>{
-  console.log(props)
+  //console.log(props)
  return(
      <div>
-         <Header/>
+         <Header {...props}/>
          <div className="main">
            {props.children}
       

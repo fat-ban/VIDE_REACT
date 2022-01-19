@@ -1,15 +1,15 @@
 import React from 'react'
 
+import Signup from '../../cmponents/Signup'
+
 import "./styles.scss"
 
 const Registration = () => {
     return (
-        <div className='registartion'>
-            <h1>
-                Registration page
-            </h1>
-        </div>
+        
+            <Signup/>
     )
+        
 }
 
 export default Registration

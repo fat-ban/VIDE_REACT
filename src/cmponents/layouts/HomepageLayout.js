@@ -6,7 +6,7 @@ const HomePageLayout=(props)=>{
     //console.log(props.children)
  return(
      <div className="fullHeight">
-         <Header/>
+         <Header {...props}/>
          {props.children}
         
          <Footer/>
